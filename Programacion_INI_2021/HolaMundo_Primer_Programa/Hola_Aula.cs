@@ -26,5 +26,15 @@ namespace HolaMundo_Primer_Programa
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnClick_Click(object sender, EventArgs e)
+        {
+            LblMensaje.Text = "Hola gente de la materia:  " + TxtMateria.Text;
+        }
     }
 }
